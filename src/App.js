@@ -33,17 +33,23 @@ function App() {
   };
 
   async function handleAddRepository() {
-    api.post("repositories", repository).then((response) => {
+    try {
+      const response = await api.post("repositories", repository);
       setRepositories([...repositories, response.data]);
-    });
+    } catch {
+      alert("ocorreu um erro inesperado");
+    }
   }
 
   async function handleRemoveRepository(id) {
-    api.delete(`repositories/${id}`).then(() => {
+    try {
+      const response = await api.delete(`repositories/${id}`);
       const newRepos = repositories.filter((repo) => repo.id !== id);
 
       setRepositories(newRepos);
-    });
+    } catch {
+      alert("ocorreu um erro inesperado");
+    }
   }
 
   return (
