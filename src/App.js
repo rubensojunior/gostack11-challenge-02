@@ -34,13 +34,16 @@ function App() {
 
   async function handleAddRepository() {
     api.post("repositories", repository).then((response) => {
-      alert(response.data.url);
       setRepositories([...repositories, response.data]);
     });
   }
 
   async function handleRemoveRepository(id) {
-    // TODO
+    api.delete(`repositories/${id}`).then(() => {
+      const newRepos = repositories.filter((repo) => repo.id !== id);
+
+      setRepositories(newRepos);
+    });
   }
 
   return (
@@ -70,7 +73,15 @@ function App() {
       </form>
       <ul data-testid="repository-list">
         {repositories.map((repository) => (
-          <li key={repository.id}>{repository.title}</li>
+          <li key={repository.id}>
+            {repository.title}
+            <button
+              type="button"
+              onClick={() => handleRemoveRepository(repository.id)}
+            >
+              Remover
+            </button>
+          </li>
         ))}
       </ul>
     </div>
