@@ -1,33 +1,48 @@
 <img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
 
-<h3 align="center">
-  Desafio 02: Conceitos do ReactJS
-</h3>
+<h1 align="center">
+<br>
+Rocketseat - GoStack 11 - Challenge 02
+</h1>
 
-## :rocket: Sobre o desafio
+<p align="center">
+This project was created to solve a challenge requested by Rocketseat. 
+Gostack is immersive training in technologies, react and react natively.</p>
 
-Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no ReactJS!
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
-Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend no último desafio utilizando o Node.js.
+<hr />
 
-### Funcionalidades da aplicação
+## Features
 
-- **`Listar os repositórios da sua API`**: Deve ser capaz de criar uma lista com o campo **title** de todos os repositórios que estão cadastrados na sua API.
+- **`List your API repositories`**: You should be able to create a list with the **title** field of all repositories that are registered in your API.
 
-- **`Adicionar um repositório a sua API`**: Deve ser capaz de adicionar um novo item na sua API através de um botão com o texto **Adicionar** e, após a criação, deve ser capaz de exibir o nome dele após o cadastro.
+- **`Add a repository to your API`**: You should be able to add a new item to your API via a button with the text **Add** and, after creation, you should be able to display the name after registration.
 
-- **`Remover um repositório da sua API`**: Para cada item da sua lista, deve possuir um botão com o texto **Remover** que, ao clicar, irá chamar uma função para remover esse item da lista do seu frontend e da sua API.
+- **`Remove a repository from your API`**: For each item on your list, you must have a button with the text **Remove** that, when clicked, will call a function to remove that item from your list frontend and its API.
+
+- ⚛️ **React Js** — A JavaScript library for building user interfaces
 
 ### Específicação dos testes
 
-- **`should be able to add new repository`**: Para que esse teste passe, sua aplicação deve permitir que um repositório seja adicionado ao seu backend e listado no seu frontend dentro de uma `LI`.
+- **`should be able to add new repository`**
 
-- **`should be able to remove repository`**: Para que esse teste passe, sua aplicação deve permitir que ao clicar no botão de remover que vai estar dentro da `LI` do repositório adicionado, o item seja removido da listagem.
+- **`should be able to remove repository`**
 
-## :memo: Licença
+## Getting started
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+- Clone project > enter the project folder
+- run `yarn`
+- run `yarn dev`
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 
 ---
 
-Feito com 💜 by me
+Created with passion by me 👨🏻‍💻
