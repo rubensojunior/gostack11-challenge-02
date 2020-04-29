@@ -31,7 +31,7 @@ This project connects with API available in [here](https://github.com/rubensojun
 
 - ⚛️ **React Js** — A JavaScript library for building user interfaces
 
-### Específicação dos testes
+### Tests
 
 - **`should be able to add new repository`**
 
