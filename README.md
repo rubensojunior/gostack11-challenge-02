@@ -17,6 +17,10 @@ Gostack is immersive training in technologies, react and react natively.</p>
 
 <hr />
 
+## API
+
+This project connects with API available in ![here](https://github.com/rubensojunior/gostack11-desafio-01)
+
 ## Features
 
 - **`List your API repositories`**: You should be able to create a list with the **title** field of all repositories that are registered in your API.
@@ -37,7 +41,7 @@ Gostack is immersive training in technologies, react and react natively.</p>
 
 - Clone project > enter the project folder
 - run `yarn`
-- run `yarn dev`
+- run `yarn start`
 
 ## License
 
