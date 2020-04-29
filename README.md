@@ -19,7 +19,7 @@ Gostack is immersive training in technologies, react and react natively.</p>
 
 ## API
 
-This project connects with API available in ![here](https://github.com/rubensojunior/gostack11-desafio-01)
+This project connects with API available in [here](https://github.com/rubensojunior/gostack11-desafio-01)
 
 ## Features
 
